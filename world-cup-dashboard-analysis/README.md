@@ -2,10 +2,9 @@
 
 A soccer analytics dashboard analyzing the 2022 FIFA World Cup Final between Argentina and France using StatsBomb event data.
 
-
 ## Project Overview
 
-This project creates a comprehensive match analysis dashboard featuring:
+This project creates a complete match analysis dashboard with advanced stats:
 - **Pass Networks** - Player connections and average positions
 - **Shot Maps** - Shot locations with Expected Goals (xG) values  
 - **xG Flow Chart** - Cumulative Expected Goals throughout the match
@@ -13,13 +12,13 @@ This project creates a comprehensive match analysis dashboard featuring:
 
 **Final Result**: Argentina 3-3 France (4-2 on penalties)
 
-
-## Key Statistics Used
+## Key Statistics Explained
 
 ### **Expected Goals (xG)**
 Measures the quality of scoring chances on a scale of 0-1. Higher xG = better scoring opportunity.
 - *Argentina: 2.76 xG*
 - *France: 2.27 xG*
+- https://statsbomb.com/soccer-metrics/expected-goals-xg-explained/
 
 ### **Pass Networks**
 Shows player positioning and passing connections. Thicker lines = more passes between players.
@@ -37,8 +36,7 @@ Shot locations sized by xG value:
 ## Course Project
 
 This dashboard was my project created as part of **The Complete Football Analytics in Python Course** by McKay Johns.
-
-**Course Link**: https://courses.mckayjohns.com/courses/football-analytics-course
+- https://courses.mckayjohns.com/courses/football-analytics-course
 
 ## Data Source
 
