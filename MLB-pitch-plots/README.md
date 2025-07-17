@@ -1,33 +1,32 @@
-Pitcher Analysis Tool
+# Pitcher Analysis Tool
 Compare a pitcher's recent start vs. their season performance using MLB Statcast data.
-Features
-1. Pitch Movement Comparison
 
-Side-by-side scatter plots showing horizontal/vertical movement
-Season vs. last start comparison
-Movement from pitcher's perspective (inches)
+## Pitch Movement Comparison
+- Side-by-side scatter plots showing horizontal/vertical movement
+- Season vs. last start comparison
+- Movement from pitcher's perspective (inches)
 
-2. Spin Rate Analysis
+## Spin Rate Analysis
+- Bar charts comparing spin rates by pitch type
+- Shows consistency and changes between periods
+- Includes statistical summary of RPM differences
 
-Bar charts comparing spin rates by pitch type
-Shows consistency and changes between periods
-Includes statistical summary of RPM differences
+## Performance Summary
+- Pitch usage percentages
+- Velocity and movement statistics
+- Season vs. last start breakdown
 
-3. Performance Summary
+## Data Source
+- Uses MLB Statcast data via pybaseball library. Same data as Baseball Savant.
+- https://baseballsavant.mlb.com/
 
-Pitch usage percentages
-Velocity and movement statistics
-Season vs. last start breakdown
+## Analyzing the Charts
+### Movement plots:
+- Positive horizontal = breaks toward glove side
+- Positive vertical = more rise than gravity
+- https://www.mlb.com/glossary/statcast/pitch-movement
 
-Data Source
-Uses MLB Statcast data via pybaseball library. Same data as Baseball Savant.
-Reading the Charts
-Movement plots:
-
-Positive horizontal = breaks toward glove side
-Positive vertical = more rise than gravity
-
-Spin rate charts:
-
-Higher spin = better movement
-Small error bars = consistent mechanics
+### Spin rate chart:
+- Higher spin = better movement
+- Small error bars = consistent mechanics
+- https://www.mlb.com/glossary/statcast/spin-rate
