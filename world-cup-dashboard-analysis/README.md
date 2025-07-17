@@ -5,7 +5,7 @@ A soccer analytics dashboard analyzing the 2022 FIFA World Cup Final between Arg
 
 ## Project Overview
 
-This project creates a comprehensive match analysis dashboard featuring:
+This project creates a complete match analysis dashboard featuring:
 - **Pass Networks** - Player connections and average positions
 - **Shot Maps** - Shot locations with Expected Goals (xG) values  
 - **xG Flow Chart** - Cumulative Expected Goals throughout the match
